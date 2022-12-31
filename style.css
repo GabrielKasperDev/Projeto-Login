@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  margin-left: 45px;
+  padding-left: 15%;
+  width: 200px;
+}
+.name {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-right: 10px;
+  font-family: "Sevillana";
+}
+.log {
+  font-size: small;
+  font-style: normal;
+  font-weight: 900;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #fc6e2cc2, #ff00006c, #1e00ff50);
+}
+.boxcard {
+  width: 400px;
+  max-height: 3000px;
+  padding: 2%;
+  background: #ffffffb7;
+  border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .boxcard {
+    width: 100%;
+  }
+}
+
+.password {
+  padding-top: 20px;
+  cursor: pointer;
+  color: #fc2efc;
+  transition: 0.1s;
+}
+.password:hover {
+  text-decoration: underline;
+  color: #ff00ff;
+}
+
+.sub {
+  background: linear-gradient(to left, #fc6e2cc2, #ff00006c, #1e00ff50);
+  color: #ffffff;
+  border-style: outset;
+  border: transparent;
+  height: 51px;
+  width: 100%;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  align-items: center;
+  transition: 0.2s;
+}
+.sub:hover {
+  background: radial-gradient(to right, #fc6e2cc2, #ff00006c, #1e00ff50);
+  color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #ededed;
+  text-shadow: none;
+}
+.line {
+  font-weight: bolder;
+}
+.box {
+  background: #70707018;
+  color: rgb(43, 43, 43);
+  border-style: outset;
+  border: transparent;
+  height: 51px;
+  width: 100%;
+  font: bold 15px arial, sans-serif;
+  text-shadow: none;
+  align-items: center;
+}
+.box:hover {
+  border-radius: 12px;
+}
